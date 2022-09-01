@@ -90,7 +90,7 @@ At the bottom of the workflow summary page, there is a dedicated section for art
 Currently there is *no* official ORT Image (it will most likely be in the future).
 So until that - clone this repo and build your own:
 
-1) See the ort-ci-action/.github/workflows/ort-image-build.yml for how to build or just use as is.2) In action.yml: replace uses: docker://ghcr.io/janderssonse/ort-ci-action:latest to your builded image.
+1) See the ort-ci-action/.github/workflows/ort-image-build.yml for how to build or just use as is.2) In action.yml: replace uses: docker://ghcr.io/alliander-opensource/ort-container:latest to your builded image.
 
 GitHub Actions does not support a private image here yet.
 
